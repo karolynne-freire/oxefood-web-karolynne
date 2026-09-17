@@ -32,6 +32,14 @@ export default function Menu() {
                     </ul>
                 </div>
 
+                 <button popoverTarget="menu-empresas"> <strong> Empresa </strong> </button>
+                <div id="menu-empresas" popover="auto">
+                    <ul className="menu">
+                        <li><a href="#">Listar</a></li>
+                        <li><a href="#">Cadastrar</a></li>
+                    </ul>
+                </div>
+
             </div>
 
         </div>
